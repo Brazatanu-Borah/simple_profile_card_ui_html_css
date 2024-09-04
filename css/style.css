@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #96dfdf;
+  color: #b3b8cd;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #b3b8cd;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+section.card {
+  width: 32rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.headshot {
+  width: 12rem;
+  border-radius: 50%;
+  border: solid 0.2rem #009999;
+  margin: 0 auto;
+}
+
+.badge {
+  background-color: #febb0b;
+  color: #222;
+  font-size: 1.4rem;
+  border: solid 1px #febb0b;
+  border-radius: 5em;
+  font-weight: 700;
+  padding: 0.3em 1em;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.badge:hover {
+  background-color: #352806;
+  color: #fff;
+}
+
+.info {
+  background-color: #231e39;
+  padding: 2.5rem 0 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.country {
+  font-size: 0.9rem;
+  margin: 0.2rem 0 2.5rem;
+}
+
+.stack {
+  font-size: 1.8rem;
+  margin: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  background-color: #009999;
+  border: none;
+  border: solid 2px #009999;
+  border-radius: 0.3rem;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
+  width: 10rem;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #01b6b6;
+  border-color: #01b6b6;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #009999;
+  border: solid 2px #009999;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  color: #fff;
+  background-color: #01b6b6;
+  border: solid 2px #01b6b6;
+}
+
+button.message {
+  margin-right: 0.8rem;
+}
+
+button.following {
+  margin-left: 0.8rem;
+}
+
+.socials {
+  margin: 2rem 0 0 0;
+}
+
+.socials i {
+  margin: 0 0.5rem;
+  transition: all 0.3s;
+}
+
+.socials i:hover {
+  color: #009999;
+}
+
+.skills {
+  background-color: #1f1a36;
+  padding: 1.5rem 1rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.skills ul li {
+  display: inline-block;
+  font-size: 1.2rem;
+  border: solid 0.1rem #352d55;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  margin: 0.2rem 0.1rem;
+}
